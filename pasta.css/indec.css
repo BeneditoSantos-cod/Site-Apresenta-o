@@ -1,0 +1,184 @@
+
+
+/*formatação do documento total, tags, cores padrões e centralização*/
+
+html{
+    font: 400 62.5% 'itner', sans-serif;
+}
+.container{ 
+    max-width: 126.7rem;
+    margin: auto;
+}
+:root{
+    --secondcolor-color: #fed001;
+}
+.centralpadding{
+    padding-top: 1px;
+}
+p, 
+a{
+    font-size: 1.6em;
+}
+h1{
+    font-size: 4.8rem;
+}
+h2{
+    font-size: 4.8rem;
+}
+.paddingCard{
+    padding: 3.5rem 0;
+    text-align: center;
+}
+.btnpadding{
+    margin-top:  10rem 0;
+    
+}
+
+
+/*cabeçalho*/ 
+
+
+.wrapperContainer-Dark{
+    background-color: black;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+
+
+.header_nav ul{
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+.header_nav li {
+    border: 1px solid var(--secondcolor-color);
+    padding: 1.2rem 1.2rem;
+}
+.header_nav a{
+    text-decoration: none;  
+    color: var(--secondcolor-color);
+}
+
+.fixado{
+    position: sticky;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+/*primneira parte do conteudo, banner principal*/ 
+
+
+.wrapperContainer-yellow{
+    background-image: linear-gradient(transparent, yellow);
+}
+.heroBanner-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+.upper{
+    text-transform: uppercase;
+}
+.btn{
+    background-color: var(--secondcolor-color);
+    color: black;
+    text-decoration: none;
+    padding: 1.6rem 4.6rem ;
+    border-radius: 2rem;
+}
+
+
+/*cards, segunda parte do conteúdo*/ 
+
+
+.wrapperContainer-grey{
+    background-color: #fafafa;
+}
+.contentCenter{
+    text-align: center;
+}
+.cursoContainer{
+    display: flex;
+    text-align: left;  
+    gap: 2rem;
+}
+.contentPricing{
+    
+    flex: 1;
+   
+}
+.contentPricing img{
+    display: block;
+    width: 100%;
+}
+.contentPricing h3{
+   font-size: 2.4rem;
+}
+
+.contentPricing p{
+    font-size: 1.8rem;
+    line-height: 1.5rem;
+}
+
+.retrabalho{
+    padding: 1rem;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border-top: transparent;
+}
+
+
+
+    
+
+
+/*nossa escola*/
+
+.blocoMain{
+    display: flex;
+    gap: 3rem;
+    padding-top: 6rem;
+}
+
+.wrapperContainer-blue{
+    background-color:#003464;
+}
+
+.conteudo-blue_title{
+    margin-top: 6rem;
+    font-size: 3.2rem;
+}
+
+.conteudo-blue{
+    font-size: 2rem ;
+    line-height: 1.5;
+}
+
+.wrapperContainer{
+    margin-top: 2rem;
+}
+
+/* contatos */
+
+
+.contatos_address{
+    text-align: right ;
+    padding: 1.6rem;
+    font: 400 1.8rem "inter", sans-serif;
+    padding: 3rem 0;
+}
+.footer{
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 4.5rem;
+    color:white;
+}
